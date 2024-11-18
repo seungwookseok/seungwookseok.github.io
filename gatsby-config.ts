@@ -1,6 +1,7 @@
 import type { GatsbyConfig } from "gatsby";
 
 const config: GatsbyConfig = {
+  pathPrefix: "/seungwookseok.github.io/",
   siteMetadata: {
     title: 'The 3SLab',
     siteUrl: 'https://seungwookseok.github.io/'
