@@ -1,0 +1,32 @@
+# top-most EditorConfig file
+root = true
+
+[*]
+end_of_line = crlf
+insert_final_newline = true
+
+# 2 space indentation for HTML, CSS, JavaScript, JSON, and TypeScript files
+[*.{js,json,ts,tsx,jsx,html,css,scss}]
+indent_style = space
+indent_size = 2
+
+# 4 space indentation for YAML files
+[*.yaml]
+indent_style = space
+indent_size = 4
+
+# Matches the exact files either a .md or .markdown extension
+[*.{md,markdown}]
+trim_trailing_whitespace = false
+insert_final_newline = true
+
+# Set default charset
+charset = utf-8
+
+# Add newlines to the end of Markdown files (set to false for other files if needed)
+[*.{md,markdown}]
+insert_final_newline = true
+
+# Trim trailing whitespace in all files except Markdown
+[*]
+trim_trailing_whitespace = true
