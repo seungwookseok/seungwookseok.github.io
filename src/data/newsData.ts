@@ -4,6 +4,7 @@ import img_20240901 from '../images/news/20240901.jpg'
 import img_20240913 from '../images/news/20240913.jpg'
 import img_20240919 from '../images/news/20240919.jpg'
 import img_20240618 from '../images/news/20240618.jpg'
+import img_20241030 from '../images/news/20241030.jpg'
 
 export interface NewsItem {
   title: string
@@ -112,6 +113,19 @@ export const newsData: NewsData = {
         koKR: [
           `2024년 6월 18일, 석승욱 박사는 건설기술연구원에서 "외계 서식지 개발"이라는 제목으로 프레젠테이션을 했습니다.`,
           `왼쪽은 건설기술연구원의 지반열진공챔버 앞에 선 석승욱 박사와 건설기술연구원분들의 사진입니다.`
+        ]
+      }
+    },
+    {
+      title: 'Vibration evaluation of Korea-4GSR',
+      imageSrc: img_20241030,
+      date: '2024-10-30',
+      content: {
+        enUS: [
+          `On October 30, Dr. Seok presented the results of the vibration evaluation for the Multipurpose Synchrotron Radiation Accelerator (Korea-4GSR), which is planned to be constructed in Ochang, Cheongju, Chungcheongbuk-do, to the project team.`
+        ],
+        koKR: [
+          `10월 30일, 석승욱 박사가 충청북도 청주시 오창에 건설될 4세대 다목적 방사광가속기 진동평가 결과를 사업단에 발표 보고하였습니다.`
         ]
       }
     },
