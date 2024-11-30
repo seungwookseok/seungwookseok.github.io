@@ -1,8 +1,9 @@
 import React, { useState, useEffect } from "react"
 import { Disclosure, DisclosureButton, DisclosurePanel } from '@headlessui/react'
-import { Bars3Icon, XMarkIcon, AcademicCapIcon } from '@heroicons/react/24/outline'
+import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 import { Link } from 'gatsby'
 import Logo from "../assets/logo"
+import Icon from '../images/icons/logo.svg'
 
 export interface NavigationItem {
   name: string
@@ -56,7 +57,7 @@ export default function Navbar({ initialNavigation = [] }: NavBarProps) {
               {/* Logo and menu */}
               <div className="flex flex-1 items-center justify-center whitespace-nowrap">
                 <div className="flex items-center gap-2 min-w-[150px] whitespace-nowrap">
-                  <AcademicCapIcon className="h-8 w-8 text-primary" />
+                  <img src={Icon} className="h-8 w-8 text-primary" />
                   <h2 className="text-3xl font-bold sm:text-2xl"><Logo includeDot={false}/></h2>
                 </div>
 
