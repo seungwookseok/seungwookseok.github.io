@@ -16,7 +16,7 @@ export default function NewsCard({ newsItem, onClick }: NewsCardProps) {
       <div className="flex flex-col space-y-4 m-4">
         <h2 className="text-lg font-bold text-highlight5">{newsItem.title}</h2>
         <div className="flex items-center justify-end text-sm text-gray-400">
-            <FaCalendarDay />
+            <FaCalendarDay className="mr-1" />
             <p>{newsItem.date}</p>
         </div>
       </div>

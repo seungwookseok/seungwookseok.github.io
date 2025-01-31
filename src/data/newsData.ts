@@ -5,6 +5,7 @@ import img_20240913 from '../images/news/20240913.jpg'
 import img_20240919 from '../images/news/20240919.jpg'
 import img_20240618 from '../images/news/20240618.jpg'
 import img_20241030 from '../images/news/20241030.jpg'
+import img_20250110 from '../images/news/20250110.jpg'
 
 export interface NewsItem {
   title: string
@@ -129,5 +130,18 @@ export const newsData: NewsData = {
         ]
       }
     },
+    {
+      title: 'Advisory Committee Member Appointment for Korea-4GSR',
+      imageSrc: img_20250110,
+      date: '2025-01-10',
+      content: {
+        enUS: [
+          `As of January 10th, 2025, Dr. Seok has been appointed as a member of the Architectural Technical Advisory Committee for the Multipurpose Synchrotron Radiation Accelerator (Korea-4GSR) Construction Project.`
+        ],
+        koKR: [
+          `석승욱 박사가 다목적방사광가속기 구축사업의 건축기술자문위원회 위원으로 위촉되었습니다.`
+        ]
+      }
+    }
   ]
 }
